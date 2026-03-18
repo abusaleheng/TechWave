@@ -8,18 +8,23 @@
   <link rel="stylesheet" href="./responsive.css">
 </head>
 
-<body class="work-sans-font">
+<body class="work-sans-font ">
   <header>
-    <nav>
+    <nav class="navbar">
       <h1 class="title-section">Tech<span id="linear-title">Wave</span></h1>
-      <div>
+      <input type="checkbox" id="menu-check" style="display: none;">
+      <label for="menu-check" class="hamburger-icon">
+        <img src="./assets/hamburger-menu.png" alt="menu" width="30">
+      </label>
+      <div class="menu_container">
         <ul class="section-link">
           <li><a href="#">About</a></li>
           <li><a href="#">Episodes</a></li>
           <li><a href="#">Host</a></li>
         </ul>
       </div>
-      <button class="btn-primary display_flex">Subscribe <img src="./assets/ArrowRight.png" alt=""></button>
+      <button id="top_btn" class="btn-primary display_flex">Subscribe <img src="./assets/ArrowRight.png"
+          alt=""></button>
     </nav>
     <section class="banner display_flex">
       <div>
@@ -30,17 +35,20 @@
         </div>
         <div class="about">
           <h2 class="hero-title-wave">TechWave</h2>
-          <p class="discription-container">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+          <p class="discription-container">Your daily dose of tech insights, productivity hacks, and personal growth
+          </p>
           <div class="hero-btn display_flex">
-            <button class="btn-primary display_flex"><img src="./assets/spotify.png" alt=""> Listen on Spotify</button>
+            <button class="btn-primary display_flex"><img src="./assets/spotify.png" alt=""> Listen on
+              Spotify</button>
             <button class="Subscribe-btn"><img src="./assets/message.png" alt=""> Subscribe</button>
           </div>
         </div>
       </div>
     </section>
+
   </header>
   <main>
-    <section class="about_section display_flex">
+    <section class="about_section display_flex ">
       <div class="podcast-container">
         <h3 class="title-section">About the Podcast</h3>
         <p class="discription-container about_title">TechWave is your go-to podcast for staying ahead in the fast-paced
@@ -55,19 +63,19 @@
       <div class="monthly-container">
         <div>
           <h3 class="title-section stat-item">150K+</h3>
-          <p class="discription-container">Monthly Listeners</p>
+          <h4 class="discription-container">Monthly Listeners</h4>
         </div>
         <div>
           <h3 class="title-section stat-item">200+</h3>
-          <p class="discription-container">Episodes Published</p>
+          <h4 class="discription-container">Episodes Published</h4>
         </div>
         <div>
           <h3 class="title-section stat-item">4.9★</h3>
-          <p class="discription-container">Average Rating</p>
+          <h4 class="discription-container">Average Rating</h4>
         </div>
         <div>
           <h3 class="title-section stat-item">50+</h3>
-          <p class="discription-container">Industry Experts</p>
+          <h4 class="discription-container">Industry Experts</h4>
         </div>
       </div>
     </section>
@@ -119,7 +127,8 @@
         <div class="featured">
           <div class="video-container">
             <iframe class="yeutube-video" width="560" height="315"
-              src="https://www.youtube.com/embed/lq-sWRnYWKQ?si=gJIn0DtlBMBlvscD" title="YouTube video player" frameborder="0"
+              src="https://www.youtube.com/embed/lq-sWRnYWKQ?si=gJIn0DtlBMBlvscD" title="YouTube video player"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
@@ -132,7 +141,8 @@
         <div class="featured">
           <div class="video-container">
             <iframe class="yeutube-video" width="560" height="315"
-              src="https://www.youtube.com/embed/ivJU3dS3H3k?si=umiiSeeMs4SXeTkS" title="YouTube video player" frameborder="0"
+              src="https://www.youtube.com/embed/ivJU3dS3H3k?si=umiiSeeMs4SXeTkS" title="YouTube video player"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
@@ -145,7 +155,8 @@
         <div class="featured">
           <div class="video-container">
             <iframe class="yeutube-video" width="560" height="315"
-              src="https://www.youtube.com/embed/5EjX_67sThU?si=7Avacr0oX5KxGT3j" title="YouTube video player" frameborder="0"
+              src="https://www.youtube.com/embed/5EjX_67sThU?si=7Avacr0oX5KxGT3j" title="YouTube video player"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
@@ -157,7 +168,7 @@
         </div>
       </div>
 
-      <section>
+      <section class="last-card-section">
         <div class="display_flex title-section Choose">
           <h3>Meet the Host</h3>
         </div>
@@ -167,16 +178,18 @@
           </div>
           <div class="last-card">
             <h3 class="heading_section">Alex Kumar</h3>
-            <p class="discription-container">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the
+            <p class="discription-container">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been
+              in the
               tech industry for over 10 years,
-              working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and
+              working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry
+              leaders and
               practical advice for anyone looking to grow in tech.</p>
-              <div class="last-social-icon">
-                <img class="images-social" src="./assets/linkedin.png" alt="">
-                <img class="images-social" src="./assets/x.png" alt="">
-                <img class="images-social" src="./assets/instagram.png" alt="">
-                <img class="images-social" src="./assets/youtube.png" alt="">
-              </div>
+            <div class="last-social-icon">
+              <img class="images-social" src="./assets/linkedin.png" alt="">
+              <img class="images-social" src="./assets/x.png" alt="">
+              <img class="images-social" src="./assets/instagram.png" alt="">
+              <img class="images-social" src="./assets/youtube.png" alt="">
+            </div>
           </div>
         </div>
       </section>
